@@ -1,0 +1,21 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Новости{% endblock %}
+
+{% block content %}
+<div class="main">
+    <div class="container">
+      <h1>Новости</h1>
+      {% for el in news %}
+        <div class="alert-warning">
+          <h2 class="title"><a href="{% url 'news-detail' el.id %}">{{ el.title }}</a></h2>
+          <h3>{{ el.anons }}</h3>
+          <p>{{ el.data }}</p>
+        </div>
+      {% endfor %}
+      {% if user.is_authenticated %}
+      <a href="{% url 'create' %}" class="button"><li><button class="btn btn-info"> <i class="fas fa-plus-circle"></i>Добавить запись</button></li></a>
+      {% endif %}
+  </div>
+  </div>
+{% endblock %}

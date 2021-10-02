@@ -1,0 +1,37 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}Регистрация и Вход{% endblock %}
+
+{% block content %}
+<div class="main">
+
+    <h2 class="regis">Регистрация</h2>
+
+    <form action="#" class="form-horizontal" id="main-form">
+        <div id="regis">
+            <label>Email клиента</label>
+        
+            <input type="email" class="form-control" id="email" placeholder="ryskeldiev_ch@iuca.kg" data-toggle="tooltip" title="Введите email" required >
+        </div>
+    
+        <div id="regis">
+            <label>Пароль клиента</label>
+        
+            <input type="password" class="form-control"	id="password" placeholder="password" data-toggle="tooltip" title="Введите пароль" required>
+        </div>
+    
+        <div id="regis" >
+            <input type="reset" class="btn btn-light" id="reset" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Сбросить" value="Сброс">
+            <input type="submit" class="btn btn-light" id="submit" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Отправить" value="Отправить">
+        </div>
+        <div id="regis">
+        <a href="#" >У меня уже есть аккаунт</a>
+        </div>
+    
+        <div id="regis">
+        <a href="#" type="button" id="button" class="btn btn-secondary" id="button" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Назад">Назад</a>
+        </div>
+    </form>
+    </div>
+</div>
+{% endblock %}

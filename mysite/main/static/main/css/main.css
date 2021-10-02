@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap');
+
+
+.title{
+	text-align: left;
+}
+
+body{
+	background: rgb(241, 238, 232)
+}
+
+.logus{
+	padding-left: 10px;
+}
+
+.main{
+	padding-bottom: 100px;
+}
+
+.about{
+	padding: 50px;
+}
+
+.alert-warning{
+	font-family: 'Lato', sans-serif;
+	background-color: #FFFFFF;
+	color: black;
+}
+
+.box{
+	margin: 80px;
+}
+
+
+
+
+.container {
+  width: 100%;
+  max-width: 4096px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+p{
+	margin-left: 1.25%;
+	width: 97.5%;
+}
+
+h1 {
+	font-family: 'Brush Script MT', cursive;
+	text-align: center;
+	font-size: 90px;
+}
+
+
+h3{
+	margin-left: 1.25%;
+	padding-bottom: 5px;
+}
+hr{
+	margin-left: 1.25%;
+	width: 97.5%;
+	margin-bottom: 35px;
+	border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+.text0{
+	text-align: center;
+	color:  rgba(16, 170, 56,1) ;
+	font-size: 7vw;
+}
+/**{
+	border: 2px solid green;
+	}*/
+
+	#lorem{
+		font-family: 'Times New Roman', serif;
+		font-size: 20px;
+		color: black;
+	}
+	.lorem{
+		font-family: 'Times New Roman', serif;
+		font-size: 20px;
+		color: black;
+
+	}
+
+
+	.videowrap{
+		max-width: 720px;
+		margin: 0 auto;
+	}
+
+	.videoblock {
+		position: relative;
+		padding-bottom: 56.25%;
+		height: 0;
+		overflow: hidden;
+	}
+
+	.videoblock iframe {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
+
+	.text{
+		width: 97.5%;
+		padding-bottom: 20px;
+		border-bottom: 2px solid #708ca8;
+		font-family: 'Anton', sans-serif;
+		margin-left: 1.25%;
+		text-transform:uppercase;
+	}
+
+	.text2{
+		text-align: center;
+		width: 97.5%;
+		font-family: 'Anton', sans-serif;
+		margin-left: 1.25%;
+		text-transform:uppercase;
+	}
+	
+	
+
+	#regis{
+		text-align: center;
+		margin: 30px;
+	}
+	
+	.regis{
+		text-align: center;
+		text-transform:uppercase;
+		margin-top: 40px;
+
+	}
+
+	#button{
+		text-align: center;
+		font-size: 25px;
+		background-color: #212529;
+	}
+
+	.footer{
+		background-color: #0e7eee;
+	}
+
+	
+	.text2 {
+	text-transform:uppercase;
+	margin-left: 1.25%;
+	}	
+
+	.text3{
+	font-family: 'Times New Roman', serif;
+	font-size: 17.5px;
+	color: black;
+	border-left: 5px solid #708ca8;
+	margin-left: 1.25%;
+	padding-left: 5px;
+
+	}
+
+	
+
+.image{
+	height: 300px;
+	width: 22.5%;
+	float: left;
+	margin: 1.25%;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.image1{
+	background-image: url("../img/1476977488.jpg");
+}
+.image2{
+	background-image: url("../img/99b37e278226b136bac04f85ab8e238c.png");
+}
+.image3{
+	background-image: url("../img/1476977240.jpg");
+}
+.image4{
+	background-image: url("../img/bs.png");
+}
+.image5{
+	background-image: url("../img/Tips-For-Improving-MySQL-Database-Performance.jpg");
+}
+.image6{
+	background-image: url("../img/php-1024x538.png");
+}
+.image7{
+	background-image: url("../img/shutterstock_1386882278-1.jpg");
+}
+.image8{
+	background-image: url("../img/1fedb9281ec46d21e3bfbd075eb765eb.png");
+}
+
+#date{
+	text-transform:uppercase;
+	margin-left: 1.25%;
+	font-family: sans-serif;
+	color: #708ca8;
+	font-size: 20px;
+	letter-spacing: 2px;
+	padding-bottom: 10px;
+	
+}
+
+.button{
+	text-align: center;
+	list-style-type: none;
+	margin: 5px;
+}
+
+
+.formTitle{
+	padding: 50px;
+	text-align: center;
+}
+
+.delete{
+	padding: 50px;
+	text-align: center;
+}
+
+#delete{
+	padding: 15px;
+	margin: 150px;
+}
+
